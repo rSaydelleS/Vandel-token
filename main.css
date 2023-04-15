@@ -122,7 +122,6 @@ body{
 #skills{
     margin-top: 3rem;
     border: ridge 5px black;
-    font-weight: bold;
 }
 #skills h3 {
     font-size: 25px;
@@ -160,4 +159,18 @@ body{
         flex-direction: column;
         justify-content: space-around;
 }
+    .magic {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    #equip table {
+        margin-left: 0rem;
+    }
+    #equip input {
+        width: 6rem;
+    }
+    #inventory textarea {
+        margin-left: 0rem;
+    }
 }
