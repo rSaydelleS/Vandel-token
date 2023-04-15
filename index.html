@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap" rel="stylesheet">
+    <title>Vandel Token</title>
+<link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div id="headline">
+        <div id="name">
+            <h1>montreal vandel</h1>
+            <h2>woodelf ranger</h2>
+        </div>
+    </div>
+    <div class="container">
+        <div id="stats">
+            <form>
+                <label>força</label><br>
+                <input class="principal" type="text" value="12"><br>
+                <input class="plus" type="text" value="+!"><br>
+                <label>destreza</label><br>
+                <input class="principal" type="text" value="18"><br>
+                <input class="plus" type="text" value="+4"><br>
+                <label>constituição</label><br>
+                <input class="principal" type="text" value="13"><br>
+                <input class="plus" type="text" value="+1"><br>
+                <label>inteligência</label><br>
+                <input class="principal" type="text" value="12"><br>
+                <input class="plus" type="text" value="+1"><br>
+                <label>sabedoria</label><br>
+                <input class="principal" type="text" value="14"><br>
+                <input class="plus" type="text" value="+2"><br>
+                <label>carisma</label><br>
+                <input class="principal" type="text" value="11"><br>
+                <input class="plus" type="text" value="0"><br>
+            </form>
+        </div>
+        <div id="saving">
+            <h2>Salvaguardas</h2>
+            <input type="checkbox" checked><input type="text" value="+4" class="st"><label>Força</label><br>
+            <input type="checkbox" checked><input type="text" value="+7" class="st"><label>Destreza</label><br>
+            <input type="checkbox"><input type="text" value="1" class="st"><label>Constituição</label><br>
+            <input type="checkbox"><input type="text" value="1" class="st"><label>Inteligência</label><br>
+            <input type="checkbox"><input type="text" value="2" class="st"><label>Sabedoria</label><br>
+            <input type="checkbox"><input type="text" value="0" class="st"><label>Carisma</label><br>
+            <h2>Movimentação</h2><input type="text" value="10,5M" class="move">
+            <h2>iniciativa</h2><input type="text" value="+4" class="move">
+            <h2>Classe de Armadura</h2><input type="text" value="15" class="move">
+            <h2>Bônus de Proficiência</h2><input type="text" value="+3" class="move">
+        </div>
+        <div id="equip">
+            <h3>armas</h3>
+            <table>
+                <tr>
+                    <th>Nome</th>
+                    <th>Acerto</th>
+                    <th>Dano</th>
+                </tr>
+                <tr>
+                    <td><input type="text" value="Arco Longo"></td>
+                    <td><input type="text" value="+7"></td>
+                    <td><input type="text" value="1D8 +4"></td>
+                </tr>
+                <tr>
+                    <td><input type="text" value="Arco Curto"></td>
+                    <td><input type="text" value="+7"></td>
+                    <td><input type="text" value="1D8 +4"></td>
+                </tr>
+                <tr>
+                    <td><input type="text" value="Espada Curta"></td>
+                    <td><input type="text" value="+7"></td>
+                    <td><input type="text" value="1D6 +4"></td>
+                </tr>
+                <tr>
+                    <td><input type="text" value="Adaga"></td>
+                    <td><input type="text" value="+7"></td>
+                    <td><input type="text" value="1D4 +4"></td>
+                </tr>
+                <tr>
+                    <td><input type="text" value="Espada Longa"></td>
+                    <td><input type="text" value="+7"></td>
+                    <td><input type="text" value="1D8 +4"></td>
+                </tr>
+                <tr>
+                    <td><input type="text" value=""></td>
+                    <td><input type="text" value=""></td>
+                    <td><input type="text" value=""></td>
+                </tr>
+                <tr>
+                    <td><input type="text" value=""></td>
+                    <td><input type="text" value=""></td>
+                    <td><input type="text" value=""></td>
+                </tr>
+            </table>
+            <div id="inventory">
+                <h3>equipamentos de viagem</h3>
+                <form>
+                    <textarea rows="8" cols="40" type="text">Kit de viagem, Ferramentas de ferreiro, Mochila, Tocha, Corda, Flecha x40,
+                        Bordão. 
+                    </textarea>
+                </form>    
+            </div>
+        </div>
+    </div>
+    <div class="magic">
+        <div id="skills">
+            <h3>Habilidades de combate</h3><br>
+            <p>
+                <b>marca do caçador:</b>com uma ação bônus, pode marcar um alvo que possa ver dentro do alcance, o conjurador saberá
+                todas as resistências, fraquezas e imunidades do alvo. sempre que causar dano no alvo pode rolar 1d6 de dano. no seu turno
+                com uma acão bônus pode trocar de alvo caso o mesmo tenha morrido.<br>
+                <br>
+                <b>combate com duas armas:</b> pode aplicar o bonus de proficiência nas jogadas de ataque e dano com a segunda arma<br>
+                <br>
+                <b>selvageria dupla:</b> pode usar uma arma que não seja leve como se fosse uma se estiver empunhando uma arma leve na outra
+                mão contando que a arma não seja pesada. aumenta a destreza ou força em 1.<br>
+                <br>
+                <b>presa do caçador:</b> uma vez por turno se a criatura não estiver com o máximo de pontos de vida, pode causar 1d8 no ataque
+                com armado ou desarmado.<br>
+            </p>
+        </div>
+        <div id="spells">
+            <h3>magias</h3>
+            <h3>CD das Magias: 14</h3>
+            <h3><B>Bônus de Magia: +5</B></h3>
+            <label>ação</label><br>
+            <br>
+            <div id="magia">
+                <input type="checkbox" onmouseover="usar()" onmouseout="sair()"><b>curas ferimentos:</b> ao toque cura uma criatura voluntaria em 1d8+nível de conjurador.</input><br>
+                <input type="checkbox" onmouseover="usar()" onmouseout="sair()"><b>passos longo:</b> toca uma criatura e o seu deslocamento aumenta em 3m, dura 1 hora.</input> <br>
+                <input type="checkbox" onmouseover="usar()" onmouseout="sair()"><b>pele de árvore:</b> toca uma criatura e sua ca não pode ser inferior à 16, dura 1 hora.</input> <br>
+                <input type="checkbox" onmouseover="usar()" onmouseout="sair()"><b>encontrar armadilhas:</b> após conujurar dentro de 36 metros sente a presença de qua</input> <br>
+                <input type="checkbox" onmouseover="usar()" onmouseout="sair()"><b>silêncio:</b> numa esféra de 6 metros de raio, nenhum som pode ser criado ou entrar na esfera pela duração.</input> <br>
+                <br>
+            </div> 
+            <label>ação bônus</label><br> 
+            <div id="magia2">  
+            <br>
+                <input type="checkbox" onmouseover="usar2()" onmouseout="sair2()"><b>golpe conscritor:</b> quando atingir uma criatura e causar dano, vinhas crescerão e o alvo ficará impedido,
+                caso não for bem sucedido em um teste de destreza, receberá 1d6 de dano adicional.</input><br>
+                <input type="checkbox" onmouseover="usar2()" onmouseout="sair2()"><b>saraivada de espinhos:</b> quando causar dano a um criatura com um ataque a distancia, da muniçao sai uma chuva de espinhos que causa
+                1d10 ou metade se for bem sucedido em um teste de destreza.</input><br>
+            </div>
+        </div>   
+        <div id="proficients">
+            <h2>Proficiências</h2>
+                <input type="text" value="+3" class="profi"><label>Bônus de Proficiência</label><br>
+                <input type="checkbox" checked><input class="profi" type="text" value="+7"><label>Acrobacia</label><br>
+                <input type="checkbox"><input class="profi" type="text" value="+1"><label>Arcanismo</label><br>
+                <input type="checkbox" checked><input class="profi" type="text" value="+4"><label>Atletismo</label><br>
+                <input type="checkbox"><input class="profi" type="text" value="0"><label>Atuação</label><br>
+                <input type="checkbox"><input class="profi" type="text" value="0"><label>Enganação</label><br>
+                <input type="checkbox" checked><input class="profi" type="text" value="+10"><label>Furtividade</label><br>
+                <input type="checkbox" ><input class="profi" type="text" value="0"><label>História</label><br>
+                <input type="checkbox"><input class="profi" type="text" value="0"><label>Intimidação</label><br>
+                <input type="checkbox" checked><input class="profi" type="text" value="+5"><label>Intuição</label><br>
+                <input type="checkbox" ><input class="profi" type="text" value="+1"><label>Investigação</label><br>
+                <input type="checkbox"><input class="profi" type="text" value="+2"><label>Lidar com Animais</label><br>
+                <input type="checkbox"><input class="profi" type="text" value="+2"><label>Medicina</label><br>
+                <input type="checkbox" checekd><input class="profi" type="text" value="+5"><label>Natureza</label><br>
+                <input type="checkbox" checked><input class="profi" type="text" value="+5"><label>Percepção</label><br>
+                <input type="checkbox"><input class="profi" type="text" value="0"><label>Persuação</label><br>
+                <input type="checkbox"><input class="profi" type="text" value="+4"><label>Prestidigitação</label><br>
+                <input type="checkbox"><input class="profi" type="text" value="+1"><label>religião</label><br>
+                <input type="checkbox" checked><input class="profi" type="text" value="+8"><label>Sobrevivência</label><br>
+        </div>
+    </div>     
+</body>
+</html>

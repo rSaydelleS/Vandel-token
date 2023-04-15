@@ -1,0 +1,163 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body{
+    text-transform: uppercase;
+    font-family: 'MedievalSharp', cursive;
+    background-image: linear-gradient(to bottom, #546e7a, #bdbdbd  );
+}
+.container {
+    display: grid;
+    grid-template-columns: 30% 20% 50%;
+    grid-auto-flow: column;
+}
+#headline {
+    width: 100%;
+    background-color: #b71c1c;
+}
+#headline h1, h2, h3 {
+    margin: 0;
+}
+#name {
+    text-align: center;
+    padding: 0px;
+    background-color: #546e7a;
+    width: 20rem;
+    margin: 0 auto;
+    border: ridge 10px black;
+}
+#stats {
+    margin-top: 3rem;
+    border: ridge 5px black;
+}
+#saving {
+ margin-top: 3rem;
+ border: ridge 5px black;
+}
+#saving h2 {
+    margin-top: 2rem;
+    
+}
+.st {
+    border-radius: 50%;
+    width: 2rem;
+    height: 2rem;
+    text-align: center;
+    font-size: 1rem;
+    background-color: #b0bec5;
+
+}
+.move {
+    width: 3rem;
+    height: 2rem;
+    border-radius: 20px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1rem;
+    background-color: #b0bec5;
+
+}
+.principal {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 2rem;
+    margin-left: 1rem;
+    color: black;
+    background-color: #b0bec5;
+
+}
+.plus {
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 1.3rem;
+    margin-left: 1.5rem;
+    background-color: #b0bec5;
+    color: black;
+
+}
+#stats label {
+    font-size: 24px;   
+}
+#equip {
+    margin-top: 3rem;
+}
+#equip h3 {
+    font-size: 2rem;
+}
+#equip table {
+    margin-left: 2rem;
+    border-collapse:initial;
+}
+#equip table th {
+    text-align: left;
+}
+#equip input {
+    width: 8rem;
+    border: none;
+    background-color: white;
+    text-align: center;
+    font-weight: bold;
+    color: black;
+}
+#equip {
+    border: ridge 5px black;
+}
+#inventory h3 {
+    margin-top: 3rem;
+}
+#inventory textarea {
+    background-color: white;
+    font-family: 'MedievalSharp', cursive;
+    font-size: 1rem;
+    margin-left: 2rem;
+}
+#name1 {
+    margin-left: 20px;
+}
+#skills{
+    margin-top: 3rem;
+    border: ridge 5px black;
+    font-weight: bold;
+}
+#skills h3 {
+    font-size: 25px;
+}
+#spells {
+    margin-top: 3rem;
+    border: ridge 5px black;
+}
+#spells h3 {
+    font-size: 25px;
+}
+#spells ul {
+    font-size: 20px;
+    list-style-type: none;
+}
+#proficients {
+    margin-top: 3rem;
+    font-weight: bold;
+    border: ridge 5px black;
+}
+.profi {
+    width: 1.5rem;
+    height: 1rem;
+    background-color:#b0bec5;
+    text-align: center;
+}
+.magic {
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-columns: 30% 40% auto;
+}
+@media only screen and (max-width: 800px){
+    .container{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+}
+}
